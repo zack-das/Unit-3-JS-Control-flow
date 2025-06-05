@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-06-05T11:29:38.680Z",
+    "end": "2025-06-05T11:29:52.955Z",
+    "duration": 14275
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "\"before all\" hook",
+      "duration": 14161,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules\\mocha-jsdom\\index.js:70:7)\n    at C:\\Users\\Administrator\\Unit-3-JS-Control-flow\\node_modules\\jsdom\\lib\\jsdom.js:312:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)",
+        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    }
+  ],
+  "passes": []
+}
